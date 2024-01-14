@@ -5,5 +5,8 @@
   "scripts": {
     "dev": "npx tailwindcss -i ./public/src/css/input.css -o ./public/src/css/output.css --watch",
     "build": "mkdir dist && touch dist/input.css"
+  },
+  "dependencies": {
+    "boxicons": "^2.1.4"
   }
 }
